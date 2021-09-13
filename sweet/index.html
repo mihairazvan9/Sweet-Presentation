@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opti</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="top_section">
+            <header>
+                <h1 class="brand_logo">Nume Firma</h1>
+            </header>
+            <nav>
+                <label class="menu_h_s" for="menu_r">Menu</label>
+                <input type="checkbox" name="menu" id="menu_r" checked>               
+                <ul id="menu_d">
+                    <li><a href="#" style="background:#04d791;">Acasa</a></li>
+                    <li><a href="#">Despre noi</a></li>
+                    <li class="dropdown_t"><a >Daily</a>
+                        <div class="dropdown">
+                            <a href="#">Tablete mentosan</a>
+                            <a href="#">Dropsuri</a>
+                            <a href="#">Caramele</a>
+                            <a href="#">Șerbet</a>
+                        </div>
+                    </li>
+                    <li><a href="#">Colin</a></li>
+                    <li><a href="#">Unde ne gasesti?</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><input class="search" type="search" placeholder="caută"><button class="search_btn" type="submit"><img height="16px" src="img/search.svg"></button></li>
+                </ul>
+                
+            </nav>
+            <section class="slider_section">
+                <div class="slider">
+                    <input type="radio" name="images" id="i1" checked>
+                    <input type="radio" name="images" id="i2">
+                    <input type="radio" name="images" id="i3">
+                    
+                    <div class="slide_img" id="one">
+                        <img src="img/c1.jpg">
+                    </div>
+                    <div class="slide_img" id="two">
+                        <img src="img/c2.jpg">
+                    </div>
+                    <div class="slide_img" id="three">
+                        <img src="img/c3.jpg">
+                    </div>
+
+                    <label class="slider_label" id="dot1" for="i1"></label>
+                    <label class="slider_label" id="dot2" for="i2"></label>
+                    <label class="slider_label" id="dot3" for="i3"></label>
+                </div>
+                <div class="slider_txt_content">
+                    <h1 class="slider_txt">Lorem, ipsum dolor sit amet elit.</h1>
+                </div>
+            </section>
+        </div>
+        <main>
+            <div class="vl"></div>
+            <div class="about">
+                <h1 class="title">Despre noi</h1>
+                <p><b>SRL Nume Firma</b> lorem ipsum dolor sit amet consectetur adipisicing <b>elit</b>. Dolores velit ad quasi doloremque perspiciatis recusandae dicta libero dignissimos sapiente cupiditate, quo blanditiis repudiandae, aspernatur amet. Harum laborum obcaecati consectetur quibusdam.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, in voluptates ullam non maiores nulla dolor fugit ab impedit! Mollitia.Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, in voluptates ullam.</p>
+                <p>Lorem ipsum dolor sit amet consectetur <b>adipisicing:</b></p>
+                <ul>
+                    <li class="about_li"><span>&rsaquo;</span><b>Daily</b>-lorem ipsum dolor sit amet consectetur;</li>
+                    <li class="about_li"><span>&rsaquo;</span><b>Colin</b>-lorem ipsum dolor sit;</li>
+                    <li class="about_li"><span>&rsaquo;</span><b>About</b>-lorem ipsum dolor sit amet;</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit deleniti iure, eligendi voluptates beatae dolor a eveniet, voluptatibus eaque velit consectetur asperiores tenetur similique labore?...</p>
+                <a class="btn" href="#">mai multe</a>
+            </div>
+            <div class="products">
+                <div class="products_space">
+                    <h1 class="title">Produsele noastre</h1>
+                    <div class="products_overflow">
+                        <input type="radio" name="products" id="p1" checked>
+                        <input type="radio" name="products" id="p2">
+                        <input type="radio" name="products" id="p3">                       
+                       
+                        <div class="products_slider" id="slide1">
+                            <label class="products_arrow" for="p3">&lsaquo;</label>
+                            <label class="products_arrow" for="p2">&rsaquo;</label>
+                            <div class="products_img_container">
+                                <div class="products_img_content">
+                                    <img class="img_products" src="img/a3.jpg">
+                                </div>
+                                <div class="shadow"></div>
+                                <p class=products_title>Prajitura 1</p>
+                            </div>
+                            <div class="products_img_container">
+                                <div class="products_img_content">
+                                    <img class="img_products" src="img/a2.jpg">
+                                </div>
+                                <div class="shadow"></div>
+                                <p class=products_title>Prajitura 2</p>
+                            </div>
+                        </div>
+
+                        <div class="products_slider" id="slide2">
+                            <label class="products_arrow" for="p1">&lsaquo;</label>
+                            <label class="products_arrow" for="p3">&rsaquo;</label>
+                            <div class="products_img_container">
+                                <div class="products_img_content">
+                                    <img class="img_products" src="img/a1.jpg">
+                                </div>
+                                <div class="shadow"></div>
+                                <p class=products_title>Prajitura 3</p>
+                            </div>
+                            <div class="products_img_container">
+                                <div class="products_img_content">
+                                    <img class="img_products" src="img/a4.jpg">
+                                </div>
+                                <div class="shadow"></div>
+                                <p class=products_title>Prajitura 4</p>
+                            </div>
+                        </div>
+
+                        <div class="products_slider" id="slide3">
+                            <label class="products_arrow" for="p2">&lsaquo;</label>
+                            <label class="products_arrow" for="p1">&rsaquo;</label>
+                            <div class="products_img_container">
+                                <div class="products_img_content">
+                                    <img class="img_products" src="img/a5.jpg">
+                                </div>
+                                <div class="shadow"></div>
+                                <p class=products_title>Prajitura 5</p>
+                            </div>
+                            <div class="products_img_container">
+                                <div class="products_img_content">
+                                    <img class="img_products" src="img/a6.jpg">
+                                </div>
+                                <div class="shadow"></div>
+                                <p class=products_title>Prajitura 6</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <a class="btn" href="#">mai multe</a>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <footer>
+        <div class="container">
+            <ul>
+                <li><a href="#" style="color:rgba(255, 255, 255, .7);">Acasa</a></li>
+                <li><a href="#">Despre noi</a></li>
+                <li class="f_dropdown_t"><a >Daily</a>
+                    <div class="f_dropdown">
+                        <a href="#">Tablete mentosan</a><br>
+                        <a href="#">Dropsuri</a><br>
+                        <a href="#">Caramele</a><br>
+                        <a href="#">Șerbet</a><br>
+                    </div>
+                </li>
+                <li><a href="#">Colin</a></li>
+                <li><a href="#">Unde ne gasesti?</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <p class="copy_right">2021.Toate drepturile rezervate</p>
+        </div>
+    </footer>
+
+
+    <script>
+        showSlides();     
+        function showSlides() {
+            let i = 1;
+            setInterval(function(){
+                i++;
+                if(i >= 4){
+                    i = 1;
+                }
+                document.getElementById(`i${i}`).checked = true;
+            }, 4000);    
+        }
+    </script>
+</body>
+</html>
